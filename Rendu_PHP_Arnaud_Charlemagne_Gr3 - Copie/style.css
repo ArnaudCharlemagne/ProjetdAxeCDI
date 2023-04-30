@@ -1,0 +1,31 @@
+@import url(CSS/navbarre.css);
+@import url(CSS/tweet.css);
+@import url(CSS/account.css);
+@import url(CSS/popuptweet.css);
+@import url(CSS/login.css);
+@import url(CSS/responsive.css);
+
+
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    color-scheme: dark;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(./images/fond_noir.jpeg);
+}
+
+@keyframes RGB {
+    0% { color: #8700ca; }
+    16% {color: #7535d9; }
+    32% { color: #00a59f; }
+    48% { color: #0192d8; }
+    64% { color: #c34800;}
+    80% {color: #da007c;}
+    96% {color:plum;}
+    100% {color:#8700ca;}
+}

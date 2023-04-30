@@ -1,0 +1,20 @@
+.account {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(21, 21, 67);
+    color: aliceblue;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.account p {
+    text-align: center;
+}
+
+.infouser {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 10%;
+    background-color: rgb(25, 25, 108);
+}

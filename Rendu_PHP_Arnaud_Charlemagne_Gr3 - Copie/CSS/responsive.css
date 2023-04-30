@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px) {
+
+    .btnmenu {
+        background: none;
+        border: unset;
+        width: 10%;
+    }
+
+    .infotweet {
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        animation: RGB 4s infinite;
+    }
+
+    .datetweet {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .tagtweet {
+        grid-column: 1;
+        grid-row: 1;
+        
+    }
+
+    .btnsupprtweet {
+        grid-column: 1;
+        grid-row: 3;
+        padding-bottom: 2%;
+    }
+
+    .gosupprimer {
+        background: none;
+        border: unset;
+        width: 15%;
+    }
+
+    .sidemenu {
+        font-size: 50%;
+    }
+}

@@ -1,0 +1,41 @@
+.sidemenu {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: rgb(21, 21, 67);
+    overflow-x: hidden;
+    padding-top: 3%;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+.sidemenu a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 1%;
+    list-style: none;
+    transition: 1s;
+}
+
+    
+
+.d-flex {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding-left: 10%;
+}
+
+.hautdepage {
+    display: flex;
+}
+
+.btnmenu {
+    background: none;
+    border: unset;
+    width: 5%;
+}
+
+
+.btn-outline-success {
+    transition: 0.5s;
+}

@@ -1,0 +1,120 @@
+.zone_post {
+    margin-left: 20%;
+    width: 50%;
+    background-color: rgb(25, 25, 108);
+    color: aliceblue;
+    padding: 2%;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+.page {
+    display: flex;
+    padding-top: 1%;
+}
+
+.container-feed {
+    text-align: center;
+    border: 1px solid white;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 3%;
+    padding-top: 5%;
+    background-color: rgb(21, 21, 67);
+}
+
+.infotweet {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.datetweet {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.tagtweet {
+    grid-column: 1;
+    grid-row: 1;
+    animation: tagtweet 4s infinite;
+}
+
+.tag {
+    animation: tagtweet 3s infinite;
+}
+
+.btnsupprtweet {
+    grid-column: 2;
+    grid-row: 2;
+    padding-bottom: 2%;
+}
+
+.gosupprimer {
+    width: 10%;
+}
+
+#autrepopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgb(73, 0, 0);
+    padding: 20px;
+    border: 1% solid black;
+    border-radius: 10px;
+}
+
+.boutbout {
+    grid-template-columns: repeat(2, 0fr);
+    padding: 5%;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+}
+
+.gosupprimer {
+    background: none;
+    width: 50px;
+    height: 20px;
+    margin-bottom: 5%;
+}
+
+.babouin {
+    background: none;
+    width: 50px;
+    height: 20px;
+}
+
+.boutbout button {
+    color: aliceblue;
+    
+    align-items: center;
+}
+
+.supprsuppr {
+    background: none;
+    border: unset;
+    width: 10%;
+}
+
+
+@keyframes tagtweet {
+    0% { color: #8700ca; }
+    16% {color: #7535d9; }
+    32% { color: #00a59f; }
+    48% { color: #0192d8; }
+    64% { color: #c34800;}
+    80% {color: #da007c;}
+    96% {color:plum;}
+    100% {color:#8700ca;}
+}
+
+
+
+
+
+
+
+
+

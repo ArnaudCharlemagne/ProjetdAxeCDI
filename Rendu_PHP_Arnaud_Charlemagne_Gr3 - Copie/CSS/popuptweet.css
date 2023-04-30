@@ -1,0 +1,21 @@
+#postertweet {
+    visibility: hidden;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.postweet h2 {
+    color: aliceblue;
+}
+
+.popup-btn {
+    margin-left: 70%;
+    margin-right: 10%;
+    margin-top: 5%;
+    animation: RGB 2s infinite;
+    background-color: rgb(36, 36, 43);
+    border: 1px solid white;
+    padding: 1%;
+    border-radius: 10px;
+}
+
